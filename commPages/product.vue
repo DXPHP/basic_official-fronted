@@ -22,7 +22,7 @@
 			</block>
 		</view>
 
-		<view class="tn-margin">
+		<view class="tn-margin" v-if="info.data">
 			<view class="tn-flex tn-flex-row-between">
 				<view class="justify-content-item tn-text-bold tn-margin-top-xs" style="font-size: 38rpx;">
 					{{info.data.name}}

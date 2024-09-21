@@ -71,8 +71,8 @@
 								</view>
 								<view class="justify-content-item tn-color-gray tn-text-center"
 									style="padding-top: 5rpx;">
-									<text class="tn-icon-like tn-padding-right-xs tn-text-lg"></text>
-									<text class="tn-text-df">{{ item.likes }}</text>
+									<!-- <text class="tn-icon-like tn-padding-right-xs tn-text-lg"></text> -->
+									<!-- <text class="tn-text-df">{{ item.likes }}</text> -->
 								</view>
 							</view>
 						</view>
@@ -149,8 +149,8 @@
 							<view class="justify-content-item tn-color-gray tn-text-center" style="padding-top: 5rpx;">
 								<text class="tn-icon-eye tn-padding-right-xs tn-text-lg"></text>
 								<text class="tn-padding-right tn-text-df">{{ item.view }}</text>
-								<text class="tn-icon-like-lack tn-padding-right-xs tn-text-lg"></text>
-								<text class="tn-text-df">{{ item.likes }}</text>
+								<!-- <text class="tn-icon-like-lack tn-padding-right-xs tn-text-lg"></text>
+								<text class="tn-text-df">{{ item.likes }}</text> -->
 							</view>
 						</view>
 					</view>
