@@ -131,9 +131,6 @@
 	import {
 		appinfo
 	} from '@/api/home.js'
-	import {
-		notifiedCount
-	} from '@/api/user.js'
 	// import {
 	// 	isLogin
 	// } from '@/utils/commonUtils.js'
@@ -150,7 +147,7 @@
 		name: 'Mine',
 		data() {
 			return {
-				messageNum: 0,
+			
 				appInfo: {},
 				userInfo: {
 					nickname: '',
@@ -173,9 +170,7 @@
 					this.userInfo = JSON.parse(info).userinfo
 				}
 
-				notifiedCount().then(res => {
-					this.messageNum = res.data.count
-				})
+				
 			},
 			// 跳转
 			tn(e) {
@@ -191,38 +186,19 @@
 				// })
 			},
 
-			// 收货地址
-			navAddress() {
-				// uni.chooseAddress({
-				// })
-				uni.navigateTo({
-					url: '/minePages/address'
-				})
-			},
 
 			// 单纯短震动
 			short() {
 				wx.vibrateShort();
 			},
 
-			//拨打固定电话
-			callPhoneNumber() {
-				uni.makePhoneCall({
-					phoneNumber: "18219128888",
-				});
-			},
-			// 复制id
-			copyUid() {
-				// wx.vibrateShort();
-				// uni.setClipboardData({
-				// 	data: "10262008",
-				// })
-			},
+			
+			
 			// 复制开源地址
 			copySource() {
 				wx.vibrateShort();
 				uni.setClipboardData({
-					data: "https://gitee.com/weifd/official-frontend",
+					data: "https://gitee.com/weifd/basic_official-fronted",
 				})
 			},
 		}

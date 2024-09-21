@@ -90,12 +90,6 @@ export const appinfo = (data) => httpRequest(`common/appinfo`, 'GET',
 	data
 )
 
-// 点赞列表
-export const myLikes = (data) => httpRequest(`support/myLikes`, 'GET',
-	data
-)
-
-
 // 常见问题
 export const faq = (data) => httpRequest(`support/faq`, 'GET',
 	data
@@ -111,15 +105,3 @@ export const protocol = (data) => httpRequest(`support/protocol`, 'GET',
 export const feedback = (data) => httpRequest(`support/feedback`, 'POST',
 	data
 )
-
-
-// 点赞
-export const likes = (data) => httpRequest('common/likes', 'POST', data)
-// 评论和回复
-export const comment = (data) => httpRequest('common/comment', 'POST', data)
-// 评论列表
-export const commentList = (data) => httpRequest('common/commentList', 'GET', data)
-// 删除评论
-export const delComment = (data) => httpRequest('common/delComment', 'POST', data)
-// 第二级评论回复
-export const childCommentList = (data) => httpRequest('common/childCommentList', 'GET', data)

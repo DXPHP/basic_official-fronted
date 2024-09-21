@@ -44,14 +44,6 @@
 						"enablePullDownRefresh": false
 					}
 				},
-
-				{
-					"path": "about",
-					"style": {
-						"navigationBarTitleText": "智途品牌",
-						"enablePullDownRefresh": false
-					}
-				},
 				{
 					"path": "culture",
 					"style": {

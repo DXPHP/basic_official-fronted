@@ -22,48 +22,11 @@ export const authLogin = (data) => httpRequest(`user/authLogin`, 'POST',
 	data
 )
 
-// 地址列表a
-export const addressList = (data) => httpRequest(`address/list`, 'GET',
-	data
-)
-
-//删除地址
-export const addressDelete = (data) => httpRequest(`address/delete`, 'POST',
-	data
-)
-//添加和编辑地址
-export const addressEdit = (data) => httpRequest(`address/edit`, 'POST',
-	data
-)
-//设置默认地址
-export const addressDefault = (data) => httpRequest(`address/default`, 'POST',
-	data
-)
-
-// 地址详情
-export const addressDetail = (data) => httpRequest(`address/detail`, 'GET',
-	data
-)
-
-
 // 修改用户信息
 export const profile = (data) => httpRequest(`user/profile`, 'POST',
 	data
 )
 
-
-// 点赞列表
-export const myLikes = (data) => httpRequest(`support/myLikes`, 'GET',
-	data
-)
-// 我的消息
-export const myNotification = (data) => httpRequest(`support/myNotification`, 'GET',
-	data
-)
-// 我的消息数量
-export const notifiedCount = (data) => httpRequest(`support/notifiedCount`, 'GET',
-	data
-)
 
 // 发送短信验证码
 export const send = (data) => httpRequest(`sms/send`, 'POST',
