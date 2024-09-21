@@ -163,18 +163,6 @@
 				},
 
 				{
-					"path": "like",
-					"style": {
-						"navigationBarTitleText": "我的点赞"
-					}
-				},
-				{
-					"path": "message",
-					"style": {
-						"navigationBarTitleText": "我的消息"
-					}
-				},
-				{
 					"path": "agreement",
 					"style": {
 						"navigationBarTitleText": "政策协议"
