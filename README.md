@@ -7,10 +7,10 @@
 
 
 前端扫码体验
-![输入图片说明](https://official.duoduotu.cloud/uploads/demo/qrcode.png)
+![输入图片说明](https://basic.duoduotu.cloud/uploads/demo/qrcode.png)
 小程序没有上线，和H5体验差不多，小程序多一个微信授权登录和微信支付 
 
-后端体验地址   https://official.duoduotu.cloud/admin    账号: test   密码: 123456 ，体验账号没有删除权限
+后端体验地址   https://basic.duoduotu.cloud/admin    账号: test   密码: 123456 ，体验账号没有删除权限
 
 ## 适用范围  
 
@@ -42,7 +42,7 @@
 
 ### 4. 企业商城
 
-+ 展示企业商品，用户快速下单
++ 展示企业商品
 
 ### 5. 案例展示
 
@@ -52,19 +52,17 @@
 
 + 发布企业新闻、行业动态等资讯内容，保持用户粘性。
 
-### 7. 用户互动
 
-+ 支持用户对资讯、案例、供需、视频等内容进行点赞、评论和转发
 
 ## 前端页面展示
-![输入图片说明](https://official.duoduotu.cloud/uploads/demo/1.png)
-![输入图片说明](https://official.duoduotu.cloud/uploads/demo/2.png)
-![输入图片说明](https://official.duoduotu.cloud/uploads/demo/3.png)
-![输入图片说明](https://official.duoduotu.cloud/uploads/demo/4.png)
+![输入图片说明](https://basic.duoduotu.cloud/uploads/demo/5.png)
+![输入图片说明](https://basic.duoduotu.cloud/uploads/demo/6.png)
+![输入图片说明](https://basic.duoduotu.cloud/uploads/demo/7.png)
+![输入图片说明](https://basic.duoduotu.cloud/uploads/demo/8.png)
 ## 后台管理页面
-![输入图片说明](https://official.duoduotu.cloud/uploads/demo/1-1.png)
-![输入图片说明](https://official.duoduotu.cloud/uploads/demo/1-2.png)
-![输入图片说明](https://official.duoduotu.cloud/uploads/demo/1-3.png)
+![输入图片说明](https://basic.duoduotu.cloud/uploads/demo/1-1.png)
+![输入图片说明](https://basic.duoduotu.cloud/uploads/demo/1-2.png)
+![输入图片说明](https://basic.duoduotu.cloud/uploads/demo/1-3.png)
 
 ## 技术架构
 
@@ -106,4 +104,4 @@ location / {
 如有任何疑问或合作意向，请通过以下方式联系我们：
 
 - 邮箱：1019925645@qq.com  
-- WX：![输入图片说明](https://official.duoduotu.cloud/uploads/demo/wx.png)
+- WX：![输入图片说明](https://basic.duoduotu.cloud/uploads/demo/wx.png)
