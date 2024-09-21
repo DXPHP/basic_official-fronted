@@ -131,9 +131,9 @@
 	import {
 		appinfo
 	} from '@/api/home.js'
-	// import {
-	// 	isLogin
-	// } from '@/utils/commonUtils.js'
+	import {
+		isLogin
+	} from '@/utils/commonUtils.js'
 	import {
 		getStorage
 	} from '@/common/db.js';
@@ -156,7 +156,7 @@
 			}
 		},
 		created() {
-			// isLogin()
+			isLogin()
 			appinfo().then(res => {
 				this.appInfo = res.data
 			})
